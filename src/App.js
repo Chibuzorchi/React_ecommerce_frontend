@@ -7,6 +7,8 @@ import Sdata from './components/shop/Sdata';
 import { useState } from 'react';
 import Cart from './common/cart/Cart';
 import Footer from './components/footer/Footer';
+import Login from './components/login/Login';
+import Register from './components/register/Register';
 
 function App() {
   //Step 1: Fetch data from database
@@ -48,6 +50,14 @@ function App() {
 
       <Routes>
         <Route path="/cart" element={<Cart cartItem={cartItem} addToCart={addToCart} decreaseQty = {decreaseQty} />} />
+      </Routes>
+
+      <Routes>
+        <Route path="/login" element={<Login />} />
+      </Routes>
+      
+      <Routes>
+        <Route path="/register" element={<Register />} />
       </Routes>
       
       <Footer />

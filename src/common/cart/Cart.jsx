@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import "./style.css"
 
 
@@ -63,6 +64,10 @@ const Cart = ({ cartItem, addToCart, decreaseQty }) => {
                   <h3>${totalPrice}.00</h3>
                 </div>
               </div>
+
+              <button className="checkout">
+              <Link className="link" to="/login">Check Out</Link>
+                </button>
             </div>
         </div>
 

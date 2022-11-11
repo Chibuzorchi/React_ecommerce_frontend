@@ -91,7 +91,7 @@ li {
     position: absolute;
     top: 0;
     left: 0;
-    background: #e94560;
+    background: #0b3749;
     padding: 3px 10px;
     font-size: 12px;
     border-radius: 50px;
@@ -136,7 +136,7 @@ li {
 /* Catgory end */
 
 .btn-primary {
-  background-color: #e94560;
+  background-color: #0b3749;
   padding: 13px 40px;
   font-weight: bold;
   color: #fff;
@@ -152,7 +152,7 @@ li {
 }
 
 .heading i {
-  color: #e94560;
+  color: #7aedca;
   margin: 10px;
 }
 
@@ -180,12 +180,12 @@ li {
 .product .price {
   display: flex;
   justify-content: space-between;
-  color: #e94560;
+  color: #0b3749;
 }
 
 .product button {
   background: none;
-  color: #e94560;
+  color: #0b3749;
   font-size: 20px;
   border: 1px solid rgb(3 0 71 / 9%);
   width: 35px;
@@ -196,7 +196,7 @@ li {
 
 .product button:hover {
   cursor: pointer;
-  background: #e94560;
+  background: #0b3749;
   color: #fff;
 }
 
@@ -259,7 +259,7 @@ li {
 
 .control-btn .next:hover,
 .control-btn .prev:hover {
-  background: #e94560;
+  background: #0b3749;
   color: #fff;
   cursor: pointer;
 }

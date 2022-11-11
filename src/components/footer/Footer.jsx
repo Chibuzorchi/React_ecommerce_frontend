@@ -24,7 +24,6 @@ const Footer = () => {
             <div className="box">
                 <h2>About Us</h2>
                 <ul>
-                    <li>Careers</li>
                     <li>Our Stores</li>
                     <li>Customer Service</li>
                     <li>Terms & Conditions</li>
@@ -37,7 +36,6 @@ const Footer = () => {
                 <ul>
                     <li>Help Center</li>
                     <li>How to Buy</li>
-                    <li>Track Your Order</li>
                     <li>Corporate & Bulk purchases</li>
                     <li>Returns & Refund</li>
                 </ul>
